@@ -4,10 +4,10 @@ pipeline {
     stages {
 
         stage('Clone') {
-            steps {
-                git branch: 'main', 'https://github.com/Aiswaryaroy-S/devops-demo-app.git'
-            }
-        }
+    steps {
+        git branch: 'main', url: 'https://github.com/Aiswaryaroy-S/devops-demo-app.git'
+    }
+}
 
         stage('Build Docker Image') {
             steps {
