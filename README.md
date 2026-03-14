@@ -54,6 +54,14 @@ devops-demo-app
 
 ---
 
+## 🏗 CI/CD Architecture
+
+Developer pushes code to GitHub repository → Jenkins pipeline is triggered → Docker image is built → Docker container is deployed and application runs.
+
+GitHub → Jenkins → Docker Build → Docker Container → Application
+
+---
+
 ## 📌 Project Outcome
 
 - Automated CI/CD pipeline using Jenkins
